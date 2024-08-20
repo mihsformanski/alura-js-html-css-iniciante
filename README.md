@@ -17,4 +17,5 @@ Requisitos impostos no curso:
 
 Por exemplo:<br>
 "gato" => "gaitober"<br>
-gaitober" => "gato"
+gaitober" => "gato"<br><br>
+![Decodificador de texto](https://github.com/user-attachments/assets/080fe180-ff38-47d5-8121-7330106d8a1a)
