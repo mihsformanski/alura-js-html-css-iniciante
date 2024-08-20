@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="icon" href="./assets/logotipo.png" type="image/png">
+</head>
+
+<header class="logo">
+    <img src="./assets/logo.png">
+</header>
+ 
+<body>
+
+    <div class="caixa_esquerda">
+        <form>
+            <fieldset>
+                <label>Digite seu texto:</label><br>
+                <textarea id="texto_criptografar" name="texto_criptografar"></textarea>
+            </fieldset>
+        </form>
+        <div class="aviso">
+            <p><img src="assets/exc.png"> Apenas letras minúsculas e sem acento.</p>
+        </div>
+        <div class="botoes">
+            <button onclick="fCriptografar()" onclick="alteraVisibilidade()" class="criptografar" type="submit">Criptografar</button>
+            <button onclick="fDescriptografar()" onclick="alteraVisibilidade()" class="descriptografar" type="submit">Descriptografar</button>
+        </div>
+    </div>
+
+    <div class="resultado">
+        <img class="inferior" src="./assets/img2.png">
+        <div class="visualizar_texto" id="visualizar_texto">
+            <img id="resultado1" class="superior" src="./assets/img.png">
+            <h1 id="resultado1" class="nenhuma_mensagem1">Nenhuma mensagem encontrada</h1>
+            <p id="resultado1" class="nenhuma_mensagem2">Digite um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
